@@ -32,7 +32,7 @@ div{
     margin: 0 0 0 1rem;
 }
 p{
-    width: 51%;
+    width: 70%;
 }
 section:nth-child(2){
 display: grid;
@@ -62,5 +62,8 @@ section:nth-child(2) div:nth-child(3):hover{
 img{
     width: 40%;
     margin-top: -3rem;
+}
+p{
+    width: 51%;
 }
 }
