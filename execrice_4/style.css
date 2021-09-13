@@ -1,0 +1,49 @@
+body{
+    scroll-behavior: smooth;
+}
+.section1{
+    height: 92.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2{
+    height: 100vh;
+    background-color: #289FED;
+}
+.chmod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #289FED;
+    height: 80vh;
+    width: 80vw;
+    padding: 1rem;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+div img{
+    width: 50%;
+    margin: 5px 0 0 0;
+}
+div p{
+    margin: 0 0 0 1rem;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffff;
+    height: 80vh;
+    width: 80vw;
+    padding: 1rem;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 0px 0px #E1EEFF, 10px 10px 0px 0px #CAE6FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #5FB8FF, 25px 25px 0px 0px #289FED, 5px 5px 15px 5px rgba(0,0,0,0);
+}
