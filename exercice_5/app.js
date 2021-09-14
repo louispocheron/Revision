@@ -48,41 +48,39 @@ const section4 = document.querySelector(".section4");
 const input1 = document.querySelector('.input1').value;
 let pdemo = document.querySelector('#demo');
 const contenu4 = document.createTextNode(`${input1}`);
-
-
-    for( let i = 0; i < input1.length; i++){
-        let a = input1[i];
-        if(a == a.toUpperCase()){
-        pdemo.innerHTML = contenu4.toLowerCase();
-            
-        }
-        if( a == a.toLowerCase()){
-            console.log("Lowercase");
-        }
-    }
+section4.appendChild(contenu4);
 })
+
+
+
+
+
+// PAS TROUVE DESOLE :( 
+
+//     for( let i = 0; i < input1.length; i++){
+//         let a = input1[i];
+//         pdemo.innerHTML = a;
+            
+//     }
+// })
 
 
 // SECTION 5 
 
-const section5 = document.querySelector(".section5");
 const generer = document.querySelector(".generer");
-var caractere = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&é(-è_çà=";
-var string_length = 16;
-var motdepasse = '';
-for (var i=0; i<string_length; i++) {
-    var rnum = Math.floor(Math.random() * caractere.length);
-    motdepasse += caractere.substring(rnum,rnum+1);
-}
-
 generer.addEventListener("click", function(){
+    function randomIntFromInterval(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+    const p5 = document.querySelector('.p5');
+    const section5 = document.querySelector(".section5");
+    var caractere = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&é(-è_çà=";
+    var string_length = randomIntFromInterval(8, 16);
+    var motdepasse = '';
+        for (var i=0; i<string_length; i++) {
+            var rnum = Math.floor(Math.random() * caractere.length);
+            motdepasse += caractere.substring(rnum,rnum+1);
+    }
     
+    p5.innerHTML = motdepasse;
 })
-
-
-
-
-
-
-
-
