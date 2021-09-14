@@ -15,7 +15,7 @@ const button2 = document.querySelector('.button2');
 let p2 = document.querySelector(".p2");
 
 button2.addEventListener('click', function(){
-    let regex = new RegExp("[a-zA-Z]");
+    let regex = new RegExp("[a-zA-Z^[0-9]]");
     let input1 = document.querySelector(".input1").value;
     if ( !regex.test(input1)){
         alert('mauvais caractere');
@@ -29,7 +29,7 @@ button2.addEventListener('click', function(){
 // BUTTON 3
 const button3 = document.querySelector('.button3');
 const p3 = document.querySelector('.p3');
-let regex2 = new RegExp("[0-9]");
+let regex2 = new RegExp("[0-9]^[a-zA-Z]");
 
 
 button3.addEventListener("click", function(){
